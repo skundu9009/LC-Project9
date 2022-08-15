@@ -1,0 +1,427 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #f3f3f3;
+    overflow-x: hidden;
+}
+
+header {
+    max-height: 55rem;
+    height: 80vh;
+    background-color: blue;
+    position: relative;
+}
+
+.head-container {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 2.4rem;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    gap: 3.2rem;
+    flex-grow: 1;
+    padding: 3.2rem 0;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+    flex-grow: 1;
+    color: #fff;
+}
+.nav-item {
+    font-size: 1.6rem;
+}
+
+.nav-item:first-child {
+    margin-left: auto;
+}
+
+.nav-item-active {
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+    border: none;
+    border-radius: 3px;
+    color: blue;
+}
+
+.menu , .svg-b {
+    display: none;
+}
+
+.header-text {
+    margin-top: 10rem;
+    width: 60%;
+}
+
+.header-text h2 {
+    font-size: 4.8rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.header-text p {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.header-image {
+    display: block;
+    max-width: 60rem;
+    position: absolute;
+    bottom: -20%;
+    right: 0;
+
+}
+
+.company-container {
+    max-width: 120rem;
+    margin: 2rem auto;
+    padding: 0 2.4rem;
+}
+
+.company-items {
+    text-decoration: none;
+    color: black;
+    font-size: 2.8rem;
+    margin-left: 3.2rem;
+}
+
+.company-items:first-child {
+    margin-left: 0;
+}
+
+.api-container {
+    max-width: 120rem;
+    margin: 6.4rem auto;
+    padding: 0 2.4rem;
+}
+
+.api-heading {
+    font-size: 4.rem;
+    margin-bottom: 6.2rem;
+}
+
+.cards {
+    display: flex;
+    position: relative;
+
+}
+
+.card {
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-grow: 1;
+    padding: 3.2rem;
+}
+
+.card-logo {
+    width: 4.4rem;
+    height: 4.4rem;
+}
+
+.card-head {
+    font-size: 2.4rem;
+}
+
+.card-active {
+    background-color: white;
+    border: none;
+    border-radius: 1rem;
+}
+
+.head-active {
+    color: blue;
+}
+
+.btn {
+background-color: blue;
+border: none;
+height: 4rem;
+width: 4rem;
+border-radius: 50%;
+position: absolute;
+top: 50%;
+right: 0;
+transform: translate(50%, -50%);
+
+}
+
+.btn-icon {
+    stroke: #fff;
+    height: 2.4rem;
+    width: 2.4rem;
+}
+
+.blog-container {
+    max-width: 120rem;
+    margin: 6.4rem auto;
+    padding: 0 2.4rem;
+}
+
+.blog-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog-heading h1 {
+    font-size: 4.8rem;
+    margin-bottom: 6.2rem;
+}
+
+.blog-heading h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: blue;
+}
+
+.blog-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3.2rem;
+}
+
+.blog-card {
+    display: flex;
+}
+
+.blg-1 {
+    background-image: url(../images/Rectangle.png);
+}
+
+.blg-2 {
+    background-image: url(../images/Rectangle\ Copy.png);
+}
+
+.blog-image {
+    width: 50%;
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+.content-container {
+    flex-grow: 1;
+    text-align: center;
+    background-color: #fff;
+    padding: 0 1.2rem 8rem 4.4rem;
+    position: relative;
+}
+
+.blog-content-right, .blog-content-left {
+    text-align: left;
+}
+
+.blog-content-right h6, .blog-content-left h6 {
+    color: blue;
+    font-size: 1.4rem;
+    margin-top: 3.2em;
+}
+
+.blog-content-right h3, .blog-content-left h3 {
+    font-size: 2.4rem;
+    margin: 1.6em 0;
+}
+
+.blog-content-right h5, .blog-content-left h5 {
+    font-weight: 200;
+    font-size: 1.4rem;
+}
+
+.blog-btom-img {
+    position: absolute;
+    bottom: -5%;
+    left: 16%;
+}
+
+.blog-author {
+    width: 7.4rem;
+    position: absolute;
+    bottom: 5%;
+    left: 35%;
+}
+
+.faq-container {
+    background-color: #cbf1f5;   
+    position: relative; 
+    padding: 0 2.4rem;
+}
+
+.faq-wrapper {
+    height: 32.4rem;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.faq-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-content h2 {
+    font-size: 4.8rem;
+    margin: 2.4rem 0;
+    color: black;
+
+}
+
+.h4-small-font {
+    font-size: 1.4rem;
+    margin-bottom: 3.2rem;
+    color: black;
+}
+
+.h4-big-font {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: black;
+}
+
+.faq-content button {
+    color: #fff;
+    background-color: blue;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.faq-image {
+    height: 32.4rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+.download-container {
+    background-color: #fff;
+}
+
+.download-wrapper {
+    height: 25rem;
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 2.4rem;
+}
+
+.download-section {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.download-content span{
+    font-weight: 200;
+}
+
+.download-email {
+    position: relative;
+}
+
+.download-email input {
+    height: 5rem;
+    width: 48rem;
+    background-color: #ecf0ff;
+    border: none;
+    border-radius: 100px;
+}
+
+.download-email input::placeholder {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: black;
+    padding: 3.2em;
+}
+
+.download-email input:focus {
+    outline: none;
+}
+
+.download-email button {
+    font-size: 1.6rem;
+    color: white;
+    padding: 1.2rem 2.8rem;
+    border: none;
+    border-radius: 100px;
+    background-color: blue;
+    position: absolute;
+    top: 0.4rem;
+    right: 0.8rem;
+}
+
+.footer-container {
+    background-color: blue;
+}
+
+.footer-wrapper {
+    height: 25rem;
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 2.4rem;
+}
+
+.footer-section {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left {
+    display: block;
+}
+
+.footer-section ul li {
+    position: relative;
+}
+
+.footer-left img {
+    margin: 2.8rem 0;
+}
+
+.list-items {
+    color: #fff;
+    list-style: none;
+    display: inline;
+    margin: 0 1.6rem;
+}
+
+.list-items:not(:first-child, :last-child)::before {
+    content: '|';
+    position: absolute;
+    left: 5rem;
+}
+
+.footer-right-s {
+    display: flex;
+    gap: 2.2rem;
+}
+
+.footer-right-s img {
+    margin: 2.8rem 0;
+}
+
+.logos-list {
+    list-style: none;
+    display: inline;
+    color: #fff;
+}
